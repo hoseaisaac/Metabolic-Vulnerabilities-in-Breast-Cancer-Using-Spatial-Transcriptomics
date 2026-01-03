@@ -1,25 +1,15 @@
-# Python
-__pycache__/
-*.pyc
+# Ignore everything by default
+*
 
-# Jupyter
-.ipynb_checkpoints/
+# Allow these folders
+!figures/
 
-# Data (do not upload raw Visium data)
-data/
-*.h5
-*.h5ad
-*.loom
+# Allow their contents
+!figures/**
 
-# Models
-models/
-*.pt
-*.pth
+# Still ignore macOS junk
+**/.DS_Store
 
-# Outputs
-results/
-logs/
-
-# macOS
-.DS_Store
+# Ignore scFEA completely (optional; won't hide "modified submodule" messages)
+scFEA/
 
