@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do not upload raw Visium data)
+data/
+*.h5
+*.h5ad
+*.loom
+
+# Models
+models/
+*.pt
+*.pth
+
+# Outputs
+results/
+logs/
+
+# macOS
+.DS_Store
+

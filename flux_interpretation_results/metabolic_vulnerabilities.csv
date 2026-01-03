@@ -1,0 +1,3 @@
+pathway_expression,pathway_flux,expr_corr,expr_significant,flux_corr,flux_significant,flux_fold_change,vulnerability_score,both_significant
+Reactome_Metabolism Of Amino Acids And Derivatives R-HSA-71291,Flux_Amino_Acid_Metabolism,0.20880251394060012,True,-0.0197353263566914,False,0.9995792876527294,0.004120785756715349,False
+GO_Response To Amino Acid (GO:0043200),Flux_Amino_Acid_Metabolism,0.19754057097698063,True,-0.0197353263566914,False,0.9995792876527294,0.003898527636917874,False

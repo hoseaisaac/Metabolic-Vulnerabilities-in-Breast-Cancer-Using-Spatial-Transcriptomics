@@ -1,0 +1,6 @@
+Approach,AUC,Interpretation
+Expression only,0.7574,Good baseline
+Flux only,0.497,Random (no variance)
+Interaction (Expr × Flux),0.49920452448841424,Same as expression
+Weighted (optimal: 100% expr),0.7574297365232159,Same as expression
+Combined (naive),0.7565,No improvement
