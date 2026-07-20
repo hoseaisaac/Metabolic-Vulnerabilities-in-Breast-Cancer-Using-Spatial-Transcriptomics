@@ -1,4 +1,4 @@
-# Deep Learning Approaches for Identifying Metabolic Vulnerabilities in Breast Cancer Using Spatial Transcriptomics
+#Multi-Modal Deep Learning Approach - Spatial Metabolic Vulnerabilities in Breast Cancer
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -147,13 +147,10 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{hosea2025metabolic,
   title={Deep Learning Approaches for Identifying Metabolic Vulnerabilities in Breast Cancer Using Spatial Transcriptomics},
-  author={Hosea, Isaac and Occhipinti, Annalisa},
+  author={Hosea, Isaac and Occhipinti, Annalisa, Claudio, Angione},
   journal={},
   year={2025}
 }
 ```
 
-## Authors
 
-- **Isaac Hosea** - MSc Data Science, Teesside University
-- **Annalisa Occhipinti** - Supervisor, Teesside University
