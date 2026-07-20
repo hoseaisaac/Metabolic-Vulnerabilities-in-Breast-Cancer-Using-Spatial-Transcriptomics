@@ -84,12 +84,25 @@ metabolic-vulnerabilities-breast-cancer/
 
 ## Data
 
-This study uses 10x Genomics Visium spatial transcriptomics data from 7 breast cancer patients:
+This study uses publicly available 10x Genomics Visium and Visium HD spatial transcriptomics data from seven breast cancer patients, originally released alongside:
 
-- **Patients 1-6**: Standard Visium (55µm spot diameter)
+> Janesick, A., Shelansky, R., Gottscho, A.D. *et al.* High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis. *Nat Commun* **14**, 8353 (2023). [https://doi.org/10.1038/s41467-023-43458-x](https://doi.org/10.1038/s41467-023-43458-x)
+
+- **Patients 1-6**: Standard/CytAssist Visium (55µm spot diameter), spanning fresh-frozen and FFPE preparations
 - **Patient 7**: Visium HD (16µm bin size)
 
-Data can be downloaded from 10x Genomics public datasets or upon request.
+All raw data is hosted on 10x Genomics' public datasets portal:
+
+- 10x Genomics Datasets (human breast cancer collection): [https://www.10xgenomics.com/datasets](https://www.10xgenomics.com/datasets)
+- Visium HD, Human Breast Cancer (Fresh Frozen): [https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-human-breast-cancer-fresh-frozen](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-human-breast-cancer-fresh-frozen)
+- Visium HD, Human Breast Cancer, IF (FFPE): [https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-breast-cancer-ffpe-if](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-breast-cancer-ffpe-if)
+- Human Breast Cancer, Visium Fresh Frozen (Whole Transcriptome): [https://www.10xgenomics.com/datasets/human-breast-cancer-visium-fresh-frozen-whole-transcriptome-1-standard](https://www.10xgenomics.com/datasets/human-breast-cancer-visium-fresh-frozen-whole-transcriptome-1-standard)
+
+The remaining CytAssist FF/FFPE samples (Patients 4-6) are listed under the same "Human Breast Cancer" collection on the 10x Genomics Datasets page, and the paper's own Data Availability statement lists the complete set of accession links used across all seven patients. Raw FASTQ/count matrices are not included in this repository (see [What's not in this repo](#whats-not-in-this-repo) below); download them directly from the links above.
+
+### What's not in this repo
+
+Raw and intermediate data files (expression matrices, per-patient pathway/flux score tables, `.h5ad` objects, spatial images) are excluded from version control here due to size — several exceed 100MB. Re-download the raw data from the links above and re-run the pipeline notebooks to regenerate them locally. The scFEA tool itself is a separate third-party dependency (see Installation) and is not vendored into this repo.
 
 ## Usage
 
