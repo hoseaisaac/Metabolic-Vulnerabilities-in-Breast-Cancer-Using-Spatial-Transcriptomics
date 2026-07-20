@@ -9,7 +9,7 @@
 
 # Still ignore macOS junk
 **/.DS_Store
+.ipynb_checkpoints/
 
 # Ignore scFEA completely (optional; won't hide "modified submodule" messages)
 scFEA/
-
